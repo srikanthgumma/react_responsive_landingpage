@@ -16,6 +16,18 @@ import './App.css';
 function App() {
   return (
     <>
+       <Navbar bg="dark" data-bs-theme="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+
+
        <div class="p-4  text-black text-center div1 " >
       <p id="mmm">MMM</p>
       <h1 id="ebook">Instagram Growth and Monetization Ebook</h1>
