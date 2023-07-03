@@ -1,0 +1,299 @@
+body{
+    color: rgb(0, 0, 0);
+    width: 100% ;
+    overflow-x: hidden;
+  
+   }
+   .ho:hover{
+    box-shadow: 0 0 20px blue;
+    padding: 10px;
+
+   }
+   .carousel-inner{
+    border-radius: 5px;
+     height: 550px;
+     background-color: none;
+   }
+   .carousel-inner div>img{
+    width: 100%;;
+    height: 550px;
+    
+   }   
+   .main p{
+    padding-top: 19px;
+     padding-bottom: 20px; 
+    font-style: italic;
+   }
+   .main h1{
+    margin-bottom: 20px;
+   }
+   .main h1>span{
+    font-weight: bolder;
+   }
+   #demo{
+    width: 100%; 
+    background-image:  linear-gradient(to right,rgb(143, 143, 26),rgb(54, 54, 183));
+   }
+   .res{
+    text-align: center; padding-top: 30px;
+   }
+   .res h1{
+    padding-bottom: 30px; font-size: 2.5rem; font-weight: bold; 
+   }
+    .wrapper{
+      overflow: auto;
+    background-image:  linear-gradient(to right,rgb(54, 54, 183),rgb(143, 143, 26));
+    }
+.space{
+  border-radius: 10px; height: 600px; margin-left: 350px;
+}
+.space div >img{
+  width: 50%;
+  height: 500px;
+}
+#year,#year1, #year2, #year3{
+  color: white;
+}
+    div.pic{
+      /* background-image:url("../pages/imags/ig3.jpg"), url("../pages/imags/ig1.jpeg") ; */
+      background-repeat: no-repeat, no-repeat;
+      background-size: cover,contain;
+      background-attachment: scroll,fixed;
+      background-position: center,center;
+    }
+    div.leftside{
+      width: 400px;
+      height: 600px;
+      float: left;
+      margin-left: 90px;
+      border-radius: 10px;
+    }
+    div.main{
+      width: 650px;
+      height: 550px;
+      float: right;
+      padding-top: 30PX;
+      margin-right: 250px;
+    
+    }
+    #demos{
+      float: left;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media screen and (max-width:480px) {
+      body{
+        width: 100%;
+      }
+      div.leftside{
+        width: 100%;
+        margin: auto;  
+      }
+      div.wrapper{
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+      }
+      
+      div.main{
+        padding-top: 0px;
+        width: 300px;
+        margin-left: 20px;
+        padding: 0px ;
+        float: left;
+        
+      }
+      div.main h1{
+        font-size: 6vw;
+      }
+      div.main button{
+        width: 250px !important;
+        font-size: 12px;
+        
+      }
+      div#demo{
+        width: 100% !important;
+
+      }
+      div.res{
+        width: 100%;
+        text-align: center !important;
+        
+      }
+      .res h1{
+        font-size: 7vw !important;
+      }
+      div.space{
+        width: 300px;
+        margin: auto !important;
+      }
+      div.space img{
+        width: 100% !important;
+      }
+      .clientsatis{
+      font-size: 1.4rem !important;
+      padding: 18px !important;
+     }
+    }
+    @media screen and (min-width:480px) and (max-width:1000px){
+      body{
+        width: 100%;
+      }
+      div.leftside{
+        width: 600px;
+        
+        margin: auto;
+        float: none;
+      
+      }
+      div.leftside::after{
+        content: " ";
+        clear: both;
+      }
+      div.wrapper{
+        padding: 0px;
+        width: 100%;
+        height: 1500px;
+        overflow: hidden;
+        margin: auto;
+      }
+      
+      div.main{
+        padding-top: 0px;
+        width: 100%;
+        margin-right: 0px;
+        padding: 20px ;
+        float: none;
+          margin: auto;            
+        
+      }
+      div.main h1{
+        font-size: 7vw;
+      }
+      div.main button{
+        width: 650px !important;
+        font-size: 32px !important;
+        padding: 10px;
+        
+      }
+      div#demo{
+        width: 100% !important;
+
+      }
+      div.res{
+        width: 100%;
+        text-align: center !important;
+        
+      }
+      .res h1{
+        font-size: 7vw !important;
+      }
+      div.space{
+        width: 300px;
+        margin: auto !important;
+      }
+      div.space img{
+        width: 100% !important;
+      }
+     .clientsatis{
+      font-size: 1.8rem !important;
+      padding: 15px !important;
+     }
+      
+    }
+   @media screen  and (min-width:1000px) {
+    body{
+      width: 100% !important;
+      margin: 0px;
+      padding: 0px;
+          }
+    .div1{
+      width: 100%;
+      overflow: hidden;
+      margin: auto;
+    }
+      div.leftside{
+      width: 400px;
+      height: 600px;
+      float: left;
+      margin-left: 90px;
+      border-radius: 10px;
+    }
+    div.wrapper{
+      width: 100% !important;
+      overflow: hidden;
+    }
+    div.main{
+      width: 650px;
+      height: 550px;
+      float: right;
+      padding-top: 30PX;
+      margin-right: 250px;
+    
+    }
+    
+   }
+   #mmm{
+    position: absolute; 
+    top: 0; 
+    padding-bottom: 1px;
+     padding-top: 16px; 
+     height: 10px; 
+     font-weight: bold; 
+     letter-spacing: 5px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   #ebook{
+    padding-top: 25px; 
+    font-weight: bold;
+   }
+   .addtocart{
+    width: 600px; 
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 21px; 
+    padding: 5PX; 
+   }
+   #guide{
+   color: black; 
+   font-weight: bold; 
+   opacity: 0.9;
+     border-radius: 30px; 
+    text-shadow: 10 10 50px black; 
+   }
+   #revi{
+    color: rgb(15, 14, 14);
+      box-shadow: 0 0 20px rgb(12, 12, 12);
+        padding: 20px;
+         font-weight: bold; 
+         width: 100%;
+          margin: auto; 
+    margin-top: 10px;
+   }
+   #group{
+    overflow-y: auto; 
+    height: 300px;
+     border: 1px solid rgb(15, 14, 14);
+      width: 60%; 
+      margin: auto; 
+    padding: 20px;
+   }
+   .clientsatis{
+    font-size: 2rem; font-weight: bold; padding: 15px; margin-top: 40px; border-radius: 25px; margin-bottom: 25px;
+   }
+   .wra{
+     text-align: center;
+       background-image:  linear-gradient(to right,rgb(54, 54, 183),rgb(124, 124, 46));
+    height: 500px;
+   }
+   .div1{
+    background-color: rgb(162, 162, 35);
+   }
+   /* .navbar-nav li a{
+    width: 150px;
+   } */
+   #bigg{
+    width: 150px;
+   }
+ 
